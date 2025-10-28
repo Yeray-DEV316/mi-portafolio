@@ -1,0 +1,167 @@
+body {
+  background: #181818;
+  color: #fafafa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #23223b;
+  color: #fff;
+  text-align: center;
+  padding: 35px 0 20px 0;
+}
+
+header h1 {
+  font-size: 2.4em;
+  margin-bottom: 8px;
+  color: #ff8800;
+  letter-spacing: 1px;
+}
+
+header h2 {
+  color: #ffa500;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+}
+
+nav {
+  margin-top: 12px;
+}
+
+nav a {
+  color: #ffa500;
+  text-decoration: none;
+  margin: 0 16px;
+  font-size: 1.08em;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffcc77;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 28px 10px;
+}
+
+#presentacion {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: #242426;
+  border-radius: 12px;
+  padding: 22px;
+  margin-bottom: 38px;
+  box-shadow: 0 4px 18px rgba(30,22,80,0.15);
+}
+
+#presentacion img {
+  border-radius: 50%;
+  width: 140px;
+  box-shadow: 0 0 10px #2c2d4c30;
+}
+
+#proyectos {
+  margin-bottom: 36px;
+}
+
+.proyectos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 18px;
+}
+
+.proyecto {
+  background: #23223b;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(30,22,80,0.10);
+  padding: 18px;
+  width: 210px;
+  text-align: center;
+}
+
+.proyecto img {
+  width: 94px;
+  height: 94px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 9px;
+}
+
+.proyecto h4 {
+  margin: 8px 0;
+  color: #ff8800;
+}
+
+.proyecto a {
+  color: #ffa500;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.proyecto a:hover {
+  color: #ffcc77;
+}
+
+#skills .skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0;
+  margin: 14px 0 28px 0;
+  list-style: none;
+}
+
+#skills .skills li {
+  background: #23223b;
+  color: #ffa500;
+  border-radius: 8px;
+  padding: 7px 18px;
+  font-weight: 500;
+}
+
+#sobre-mi {
+  background: #242426;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 30px;
+  font-size: 1.08em;
+  box-shadow: 0 4px 16px rgba(30,22,80,0.09);
+}
+
+#contacto {
+  background: #23223b;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 14px rgba(30,22,80,0.08);
+}
+
+.redes {
+  margin-top: 10px;
+}
+
+.redes a {
+  color: #ffa500;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer {
+  background: #23223b;
+  color: #ff8800;
+  text-align: center;
+  padding: 18px 0;
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  border-top: 1px solid #242426;
+}
